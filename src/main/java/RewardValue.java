@@ -21,6 +21,7 @@ public class RewardValue {
     }
 
     public double convertMilesToCashValue(){
+        System.out.println("My main miles value "+ this.mMilesValue);
         return (this.mMilesValue / this.mExchangeRate);
     }
 
