@@ -49,9 +49,9 @@ public class RewardsConverter {
                 System.out.println("Could not parse input value as a integer, exiting");
                 return;
             }
-            System.out.println("converting airline miles " + milesValue + " to $");
+            System.out.println("Converting airline miles " + milesValue + " to $");
             var cashRewardsValue = new RewardValue(milesValue);
-            System.out.println("airline miles " + miles_value + " is worth $ " + cashRewardsValue.getCashValue());
+            System.out.println("Airline miles " + miles_value + " is worth $ " + cashRewardsValue.getCashValue());
         }
 
     }
