@@ -13,7 +13,7 @@ public class RewardsConverter {
         try {
             choiceValue = Integer.parseInt(choice_value);
 
-            //handle the edge case for if the choice picked is not 1 or two
+            //handle the edge case for if the choice picked is not 1 or 2
             if(choiceValue < 1 || choiceValue > 2){
                 System.out.println("Please enter value 1 or 2, exiting");
                 return;
